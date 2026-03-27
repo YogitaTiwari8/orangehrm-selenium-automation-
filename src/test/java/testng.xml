@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <parameter name="UserName" value="admin"/>
+    <parameter name="Password" value="password"/>
+    <test name="SmokeTest">
+        <classes>
+            <class name="tests.TestngTesting"/>
+        </classes>
+    </test>
+</suite>
